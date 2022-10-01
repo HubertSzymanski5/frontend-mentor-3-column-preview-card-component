@@ -126,3 +126,26 @@ footer {
     color: var(--bright-orange);
     text-decoration: none;
 }
+
+@media screen and (max-width: 900px) {
+    body {
+        min-width: 375px;
+        height: auto;
+    }
+
+    main {
+        margin: 40px 0 96px 0;
+        max-width: 500px;
+        grid-template: 1fr / 1fr;
+        width: 87%;
+    }
+
+    .card {
+    }
+
+    button {
+        margin-top: 31px;
+        bottom: auto;
+        position: relative;
+    }
+}
