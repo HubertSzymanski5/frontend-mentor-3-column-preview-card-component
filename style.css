@@ -21,6 +21,7 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     justify-content: center;
     height: 100vh;
+    min-height: 700px;
     width: 100vw;
 }
 
@@ -28,8 +29,11 @@ main {
     border-radius: 5px;
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr;
+    height: 62.5%;
     margin-top: 40px;
+    margin-inline: 40px;
     max-width: 920px;
+    min-height: 480px;
     overflow: hidden;
 }
 
@@ -68,7 +72,6 @@ button:hover {
 .card {
     padding: 48px;
     position: relative;
-    height: 500px;
 }
 
 .card h1,
