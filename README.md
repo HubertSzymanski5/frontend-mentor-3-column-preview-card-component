@@ -13,7 +13,6 @@ the [3-column preview card component challenge on Frontend Mentor](https://www.f
 - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
 - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -30,12 +29,13 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.png)
+![](./screenshot2.png)
 
 ### Links
 
 - Solution
   URL: [https://github.com/HubertSzymanski5/frontend-mentor-3-column-preview-card-component](https://github.com/HubertSzymanski5/frontend-mentor-3-column-preview-card-component)
-- Live Site URL: [TODO](TODO)
+- Live Site URL: [https://frontend-mentor-3-column-preview-card-component-umber.vercel.app/](https://frontend-mentor-3-column-preview-card-component-umber.vercel.app/)
 
 ## My process
 
@@ -48,8 +48,9 @@ Users should be able to:
 
 ### What I learned
 
-### Continued development
+I learned about `display: grid` to create tree even columns. I've also learned that
+I can use inkscape to measure some parts of image design to cet closer to design image ;)
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@HubertSzymanski5](https://www.frontendmentor.io/profile/HubertSzymanski5)
