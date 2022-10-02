@@ -17,28 +17,28 @@
 body {
     align-items: center;
     display: flex;
-    font-size: 15px;
+    font-size: 1rem;
     font-family: 'Lexend Deca', sans-serif;
     justify-content: center;
     height: 100vh;
-    min-height: 700px;
+    min-height: 46.667rem;
     width: 100vw;
 }
 
 main {
-    border-radius: 5px;
+    border-radius: 0.333rem;
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr;
     height: 62.5%;
-    margin-top: 40px;
-    margin-inline: 40px;
-    max-width: 920px;
-    min-height: 480px;
+    margin-top: 2.667rem;
+    margin-inline: 2.667rem;
+    max-width: 61.333rem;
+    min-height: 32rem;
     overflow: hidden;
 }
 
 img {
-    height: 42px;
+    height: 2.8rem;
 }
 
 h1 {
@@ -55,13 +55,13 @@ p {
 
 button {
     background-color: var(--very-light-grey);
-    border: 1px solid var(--very-light-grey);
-    border-radius: 24px;
-    bottom: 48px;
-    height: 48px;
+    border: 0.067rem solid var(--very-light-grey);
+    border-radius: 1.6rem;
+    bottom: 3.2rem;
+    height: 3.2rem;
     position: absolute;
     transition: background 0.2s, color 0.2s;
-    width: 146px;
+    width: 9.733rem;
 }
 
 button:hover {
@@ -70,13 +70,13 @@ button:hover {
 }
 
 .card {
-    padding: 48px;
+    padding: 3.2rem;
     position: relative;
 }
 
 .card h1,
 .card p {
-    margin-top: 42px;
+    margin-top: 2.8rem;
 }
 
 .card__sedans {
@@ -118,7 +118,7 @@ footer {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 0.733rem;
     text-align: center;
 }
 
@@ -127,15 +127,15 @@ footer {
     text-decoration: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 60rem) {
     body {
-        min-width: 375px;
+        min-width: 25rem;
         height: auto;
     }
 
     main {
-        margin: 40px 0 96px 0;
-        max-width: 500px;
+        margin: 2.667rem 0 6.4rem 0;
+        max-width: 33.333rem;
         grid-template: 1fr / 1fr;
         width: 87%;
     }
@@ -144,7 +144,7 @@ footer {
     }
 
     button {
-        margin-top: 31px;
+        margin-top: 2.067rem;
         bottom: auto;
         position: relative;
     }
